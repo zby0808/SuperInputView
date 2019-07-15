@@ -23,7 +23,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.bigkoo.pickerview.TimePickerView;
 import com.chad.library.adapter.base.BaseMultiItemQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
-import com.example.input_view.R;
+import com.zby.view.inputview.R;
 import com.zby.view.inputview.form.DictField;
 import com.zby.view.inputview.form.FieldSpinner;
 import com.zby.view.inputview.form.InputClearEditText;

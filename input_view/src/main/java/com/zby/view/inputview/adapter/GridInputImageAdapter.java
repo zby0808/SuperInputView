@@ -12,7 +12,7 @@ import android.widget.LinearLayout;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.RequestOptions;
-import com.example.input_view.R;
+import com.zby.view.inputview.R;
 import com.luck.picture.lib.entity.LocalMedia;
 
 import java.io.File;

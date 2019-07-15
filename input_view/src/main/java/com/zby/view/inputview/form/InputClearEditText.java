@@ -7,7 +7,7 @@ import android.support.v7.widget.AppCompatEditText;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
-import com.example.input_view.R;
+import com.zby.view.inputview.R;
 /**
  * Created by zby on 2019/7/1.
  */

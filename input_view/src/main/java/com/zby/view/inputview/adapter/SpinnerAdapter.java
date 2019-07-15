@@ -6,7 +6,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import com.example.input_view.R;
+import com.zby.view.inputview.R;
 import com.zby.view.inputview.form.DictField;
 import com.zby.view.inputview.util.PListUtils;
 

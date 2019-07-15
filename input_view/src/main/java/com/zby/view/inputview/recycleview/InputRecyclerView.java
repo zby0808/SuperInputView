@@ -9,7 +9,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.example.input_view.R;
+import com.zby.view.inputview.R;
 import com.zby.view.inputview.adapter.InputViewAdapter;
 import com.zby.view.inputview.form.InputScrollView;
 import com.zby.view.inputview.multi.InputViewMultiItem;

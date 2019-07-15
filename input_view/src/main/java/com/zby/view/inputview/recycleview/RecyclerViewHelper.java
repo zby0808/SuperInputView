@@ -9,7 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.View;
 
-import com.example.input_view.R;
+import com.zby.view.inputview.R;
 import com.zby.view.inputview.recycleview.divider.HorizontalDividerItemDecoration;
 import com.zby.view.inputview.recycleview.divider.VerticalDividerItemDecoration;
 

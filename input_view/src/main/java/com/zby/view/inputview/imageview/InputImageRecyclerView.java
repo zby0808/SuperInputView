@@ -14,7 +14,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.example.input_view.R;
+import com.zby.view.inputview.R;
 import com.luck.picture.lib.PictureSelector;
 import com.luck.picture.lib.entity.LocalMedia;
 import com.zby.view.inputview.adapter.GridInputImageAdapter;

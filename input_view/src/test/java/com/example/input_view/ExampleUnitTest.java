@@ -1,4 +1,4 @@
-package com.example.input_view;
+package com.zby.view.inputview;
 
 import org.junit.Test;
 

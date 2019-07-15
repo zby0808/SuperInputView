@@ -5,7 +5,7 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 
 import com.bigkoo.pickerview.TimePickerView;
-import com.example.input_view.R;
+import com.zby.view.inputview.R;
 
 import java.util.Calendar;
 import java.util.Date;

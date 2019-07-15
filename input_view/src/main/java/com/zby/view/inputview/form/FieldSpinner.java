@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.TextView;
 
-import com.example.input_view.R;
+import com.zby.view.inputview.R;
 import com.zby.view.inputview.adapter.SpinnerAdapter;
 
 import java.util.ArrayList;

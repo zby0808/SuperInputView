@@ -3,7 +3,7 @@ package com.zby.view.inputview.multi;
 import android.support.annotation.NonNull;
 
 import com.chad.library.adapter.base.entity.MultiItemEntity;
-import com.example.input_view.R;
+import com.zby.view.inputview.R;
 import com.zby.view.inputview.form.DictField;
 
 import java.io.Serializable;

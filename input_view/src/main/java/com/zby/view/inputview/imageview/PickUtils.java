@@ -2,7 +2,7 @@ package com.zby.view.inputview.imageview;
 
 import android.app.Activity;
 
-import com.example.input_view.R;
+import com.zby.view.inputview.R;
 import com.luck.picture.lib.PictureSelector;
 import com.luck.picture.lib.config.PictureConfig;
 import com.luck.picture.lib.config.PictureMimeType;
