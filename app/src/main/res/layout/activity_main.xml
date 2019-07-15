@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.zby.view.inputview.form.InputScrollView
+        android:id="@+id/netScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.zby.view.inputview.recycleview.InputRecyclerView
+                android:id="@+id/inputRecyclerView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:divided_color="@color/toolbar_color" />
+            <!--app:input_enable="false"-->
+
+            <com.zby.view.inputview.recycleview.InputRecyclerView
+                android:id="@+id/inputRecyclerView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" />
+
+            <com.zby.view.inputview.recycleview.InputRecyclerView
+                android:id="@+id/inputRecyclerView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+    </com.zby.view.inputview.form.InputScrollView>
+</LinearLayout>

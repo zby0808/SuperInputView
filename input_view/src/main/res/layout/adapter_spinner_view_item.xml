@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/key_viewRoot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="45dp">
+
+        <TextView
+            android:id="@+id/tv_input_key"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dp_10"
+            android:text="测试一下"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/sp_16" />
+
+        <ImageView
+            android:id="@+id/tv_input_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/tv_input_key"
+            android:paddingLeft="5dp"
+            android:src="@drawable/ic_red_star"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <com.zby.view.inputview.form.FieldSpinner
+        android:id="@+id/sp_input_value"
+        style="@style/common_spinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:minHeight="45dp"
+        android:spinnerMode="dropdown"
+        android:textSize="15sp" />
+
+</LinearLayout>

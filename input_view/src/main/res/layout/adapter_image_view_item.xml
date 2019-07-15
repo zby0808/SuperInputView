@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/key_viewRoot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="70dp">
+
+        <TextView
+            android:id="@+id/tv_input_key"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="测试一下"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/sp_16" />
+
+        <ImageView
+            android:id="@+id/tv_input_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:src="@drawable/ic_red_star"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <com.zby.view.inputview.imageview.InputImageRecyclerView
+        android:id="@+id/mInputImageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:minHeight="70dp"
+        android:paddingLeft="15dp" />
+</LinearLayout>
